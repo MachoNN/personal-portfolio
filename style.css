@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+.section-container {
+    max-width: 100%;
+    margin: auto;
+    padding: 30px 50px;
+}
+
+.section-header {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+
+.btn {
+    padding: 10px;
+    border: 2px solid red;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: red;
+    color: white;
+}
+
+
+img {
+    display: flex;
+    width: 100%;
+    align-content: end;
+}
+
+a {
+    text-decoration: none;
+} 
+
+
+body {
+    background-color: black;
+}
+
+
+nav {
+    max-width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav-logo h1 {
+    color: red;
+    margin-top: -50px;
+    padding: 50px 0px 0px 30px;
+}
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.link a {
+    position: relative;
+    color: white;
+}
+
+.link a:hover {
+    color: red;
+}
+
+
+.header-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+
+.header-content h1 {
+    display: flex;
+    font-size: 70px;
+    font-weight: 500;
+    color: rgb(240, 236, 236);
+}
+
+
+.header-content p {
+    margin-bottom: 20px;
+    color: white;
+    line-height: 1.6;
+
+}
+
+.header-image {
+    position: relative;
+}
+
+.header-image img {
+    max-width: 90%;
+    margin: auto;
+}
+
+.footer-container {
+    position: relative;
+    display: grid;
+}
+
+.footer-socials {
+    display: flex;
+    align-items: center;
+    padding: 100px ;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.footer-socials a {
+    padding: 5px 10px;
+    font-size: 20px;
+    color: red;
+    transition: 0.2s;
+}
+
+.footer-socials a:hover {
+    color: white;
+}
