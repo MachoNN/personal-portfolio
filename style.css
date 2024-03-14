@@ -42,13 +42,6 @@
     color: white;
 }
 
-
-img {
-    display: flex;
-    width: 100%;
-    align-content: end;
-}
-
 a {
     text-decoration: none;
 } 
@@ -91,20 +84,18 @@ nav {
     color: red;
 }
 
-
 .header-container {
     position: relative;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     align-items: center;
 }
 
 
 .header-content h1 {
     display: flex;
-    font-size: 70px;
-    font-weight: 500;
-    color: rgb(240, 236, 236);
+    font-size: 50px;
+    color:red;
+    padding-top: 50px;
 }
 
 
@@ -120,31 +111,95 @@ nav {
 }
 
 .header-image img {
-    max-width: 90%;
-    margin: auto;
-}
-
-.footer-container {
-    position: relative;
-    display: grid;
-}
-
-.footer-socials {
-    display: flex;
-    align-items: center;
-    padding: 100px ;
+    max-width: 100%;
+    margin: -150px 0px ;
     justify-content: center;
-    gap: 1rem;
+    padding: 200px;
 }
 
+.contact-section {
+    min-height: 75vh;
+    margin-top: 30px;
+    padding: 50px;
+    text-align: center;
+ 
+}
 
-.footer-socials a {
-    padding: 5px 10px;
-    font-size: 20px;
+.container {
+    max-width: 800px;
+    margin:0 auto;
+}
+
+.container h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
     color: red;
-    transition: 0.2s;
 }
 
-.footer-socials a:hover {
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.contact-form h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
     color: white;
+}
+
+.form-tag {
+    margin-bottom: 20px;
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+
+
+button {
+    display: inline-block;
+    border: 2px solid red;
+    padding: 10px 22px;
+    background-color: white;
+    border-color: #f44336;
+    color: black;
+    transition: .4s;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+.contact-info {
+    text-align: left;
+    padding: 10px 22px;
+}
+
+.contact-info h3 {
+    font-size: 22px;
+    margin-bottom: 22px;
+    color: white;
+    padding-left: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    color: white;
+    padding: 10px 22px;
+}
+
+.contact-info i {
+    color: red;
 }
